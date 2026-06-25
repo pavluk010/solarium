@@ -5,6 +5,7 @@
     --main-text:#5A5C5C;
     --button-color: #5C4900;
     --bcg-color:#FDD34D;
+--line-color:#FE973C;
     }
 
 
@@ -15,7 +16,7 @@
     width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid red;
+outline: 1px solid red;
     }
 
 
@@ -164,6 +165,8 @@ gap: 12px;
 border-radius: 9999px;
 background: var(--header-color);
 border: none;
+height: 60px;
+width: 270px;
 }
 
 
@@ -251,8 +254,10 @@ height: 256.0px;
 .secondimg{
     position: relative;
     border-radius: 100px;
-     width: 465.3px;
+width: 465.3px;
 height: 581.7px;
+
+
 }
 
 
@@ -281,6 +286,7 @@ font-weight: 700;
 line-height: 60px;
 letter-spacing: -3px;
 margin-top: 394px;
+margin-bottom: 39px;
 }
 
 
@@ -295,7 +301,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 32.5px;
-  
+  margin-bottom: 39px;
 }
 
 
@@ -309,5 +315,104 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 32.5px;
+position: relative;
+}
 
+
+
+.special-part::after{
+content: "";
+background-color: yellow;
+position: absolute;
+width: 100px;
+height: 10px;
+
+width: 27%;
+border-radius: 10px;
+bottom: -1px;
+}
+
+
+
+.about-close{
+    color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+margin-bottom: 39px;
+}
+
+
+.detales{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+
+}
+
+
+.girl-img{
+  width: 552.0px;
+height: 736.0px;
+
+position: relative;
+border-radius: 50px;
+
+}
+
+
+.girl-img{
+position: absolute;
+right: 80px;
+top: 1100px;
+}
+
+
+.detales{
+margin-bottom: 24px;
+}
+
+
+
+.button-wrap{
+    position: relative;
+}
+
+
+.strilka{
+    position: absolute;
+    right: 25px;
+}
+
+
+
+
+.line{
+    position: relative;
+     display: inline-block;
+}
+
+
+.line::after{
+    content: "";
+position: absolute;
+
+height: 5px;
+
+width: 70%;
+border-radius: 10px;
+bottom: -1px;
+background-color:  var(--line-color);
+transform: rotate(-90deg);
+left: -200px;
 }
