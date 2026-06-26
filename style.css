@@ -302,6 +302,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 32.5px;
   margin-bottom: 39px;
+  
 }
 
 
@@ -400,6 +401,7 @@ margin-bottom: 24px;
 .line{
     position: relative;
      display: inline-block;
+    
 }
 
 
@@ -407,12 +409,118 @@ margin-bottom: 24px;
     content: "";
 position: absolute;
 
-height: 5px;
+height: 10px;
+width: 135px;
 
-width: 70%;
-border-radius: 10px;
-bottom: -1px;
+
+bottom: 70px;
 background-color:  var(--line-color);
 transform: rotate(-90deg);
-left: -200px;
+left: -80px;
+}
+
+
+
+
+
+
+
+.detales {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 24px;
+}
+
+.detales::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 30px;
+    height: 4px;
+    background-color: var(--bcg-color);
+    border-radius: 10px;
+}
+
+
+
+.header-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.header-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0;
+    height: 4px;
+    background-color: var(--header-color);
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.header-link:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+
+.about-grid{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--logo-color);
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -3px;
+margin-top: 256px;
+}
+
+
+
+.bcg{
+    background: radial-gradient(85.61% 61.6% at 50% 50%, rgba(253, 211, 77, 0.15) 0%, rgba(253, 211, 77, 0.00) 70%);
+}
+
+
+.explaine-grid{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--main-text);
+font-family: "Be Vietnam Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 16px;
+}
+
+
+.trends{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #8D4A00;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+border: none;
+margin-left: auto;
 }
