@@ -523,4 +523,69 @@ letter-spacing: 1.4px;
 text-transform: uppercase;
 border: none;
 margin-left: auto;
+
 }
+
+
+
+
+
+
+
+
+
+
+.grid-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-img {
+    width: 80%;
+    border-radius: 15px;
+    display: block;
+}
+
+
+
+.grid-img:nth-child(3){
+    position: relative;
+width: 278.0px;
+height: 388.0px;
+
+}
+
+
+.grid-img:nth-child(3){
+    position: absolute;
+left: 800px;
+top: 2500px;
+    
+}
+
+
+
+
+.grid-img:nth-child(4){
+      position: relative;
+}
+
+
+.grid-img:nth-child(4){
+    position: absolute;
+    width: 278.0px;
+height: 388.0px;
+left: 1100px;
+bottom: -2120px;
+}
+
+
+
+.grid-img:nth-child(1){
+    width: 580.0px;
+height: 800.0px;
+
+}
+
+
