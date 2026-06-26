@@ -589,3 +589,156 @@ height: 800.0px;
 }
 
 
+
+
+.evolution{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--logo-color);
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -3px;
+margin-top: 256px;
+}
+
+
+
+.evo-explane{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--main-text);
+text-align: center;
+font-family: "Be Vietnam Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 16px;
+}
+
+
+
+.tablo-items{
+
+
+justify-content: center;
+color: var(--logo-color);
+font-family: "Space Grotesk";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+border-radius: 20px;
+width: 126.6px;
+height: 16.0px;
+ padding: 32px 16px;
+    text-align: center;
+
+}
+
+
+
+
+.tablo{
+
+  
+    table-layout: fixed;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   margin-top: 80px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+.special-item{
+
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+font-family: "Be Vietnam Pro";
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+
+}
+
+
+
+.simle-item{
+   
+flex-direction: column;
+justify-content: center;
+color: #2D2F2F;
+font-family: "Be Vietnam Pro";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+
+}
+
+
+
+.tablo tr:first-child {
+    background-color: #F0F1F1;
+
+}
+
+
+
+.special-word{
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #4E2600;
+font-family: "Be Vietnam Pro";
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+}
+
+
+
+.special-color {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4px 12px;
+
+    background: #FECF36;
+    border-radius: 9999px;
+
+    font-family: "Be Vietnam Pro";
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    line-height: 1;      
+    vertical-align: middle; 
+}
+
+
+
+
+
