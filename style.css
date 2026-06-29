@@ -540,14 +540,41 @@ margin-left: auto;
 .grid-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+     transition: transform 0.4s ease;
     gap: 20px;
 }
+
+
+
+.grid-img {
+  transition: transform 0.2s ease;
+   width: 100%;
+  display: block;
+}
+
+
+
+
+
 
 .grid-img {
     width: 80%;
     border-radius: 15px;
     display: block;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1272,9 +1299,14 @@ background: #8D4A00;
 .copy-img{
     position: absolute;
     bottom: 47px;
-    left: 75px;
+    right: 455px;
+  
 }
 
+
+.modal-content{
+    border-radius: 40px;
+}
 
 
 
@@ -1295,3 +1327,7 @@ left: 270px;
     justify-content: center;
     align-items: center;
 }
+
+
+
+
