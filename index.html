@@ -58,11 +58,18 @@
           </h2>
           <div class="buttons">
             <div class="button-wrap">
-              <button class="hero-button">
-                Explore Archive
-                <img class="strilka" src="./images/strilka.png" alt="strilka" >
-              </button>
-            </div>
+             
+             
+             
+              <button class="hero-button" id="openModal">
+  Explore Archive
+  <img class="strilka" src="./images/strilka.png" alt="strilka">
+</button>
+          
+
+
+
+</div>
             <button class="near-button">View Drops</button>
           </div>
 
@@ -276,5 +283,36 @@ guides.</p>
 
   </div>
 </footer>
+
+
+
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+
+    <img class="modal-img" src="./images/modalimg.png" alt="modalimg">
+<img class="limited" src="./images/limited.png" alt="limited">
+<p class="drop">Secret Drop!</p>
+<p class="about-drop">You've unlocked a sun-drenched <br>
+exclusive reward for the new <br>
+season collection.</p>
+
+<div class="modal-div">
+<button class="modal-button"><span class="modal-procent">-15%</span> <span class="about-sale"> <br> OF YOUR NEXT ORDER</span></button>
+</div>
+
+<div class="goiteens-div">
+<button class="goiteens"> <img class="go-icon" src="./images/goicon.png" alt="goicon"> GOITEENS-STYLE</button>
+</div>
+
+<div class="copy-div">
+<button class="copy-code"> <img class="copy-img" src="./images/copy.png" alt="copy"> Copy Code</button>
+</div>
+<button id="closeModal">Х</button>
+  </div>
+</div>
+
+
+<script src="./modal.js"></script>
   </body>
 </html>

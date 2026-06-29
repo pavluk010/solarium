@@ -1011,10 +1011,287 @@ padding-bottom: 100px;
 
 
 
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.modal.active {
+  display: flex;
+
+}
+
+.modal-content {
+  width: 800px;
+  height: 750px;
+  background: white;
+
+  transform: scale(0.8);
+  transition: transform 0.35s ease;
+}
+
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+}
+
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+#closeModal {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 24px;
+  height: 24px;
+  
+}
+
+
+
+.modal-content {
+  position: relative;
+}
+
+
+#closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+
+}
 
 
 
 
+.modal-img{
+    position: relative;
+}
+
+
+.modal-img{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
 
 
 
+.limited{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #4E2600;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+background-color: #FDD34D;
+width: 60.2px;
+height: 24.0px;
+border-radius: 10px;
+position: relative;
+
+}
+
+
+.limited{
+    position: absolute;
+left: 430px;
+top: 320px;
+transform: rotate(-20deg);
+
+}
+
+
+
+.drop{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--logo-color);
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.9px;
+text-transform: uppercase;
+margin-top: 350px;
+}
+
+
+
+.about-drop{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--main-text);
+text-align: center;
+font-family: "Be Vietnam Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+}
+
+
+.modal-button{
+    background: #F0F1F1;
+    
+}
+
+
+.modal-procent {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 16px;
+    border-radius: 12px;
+font-family: "Space Grotesk";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+
+    background: #F0F1F1;
+    color: #8D4A00;
+
+    width: fit-content;
+    text-align: center;
+}
+
+
+
+.about-sale{
+    width: 170.1px;
+height: 16.0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #5A5C5C;
+text-align: center;
+font-family: "Be Vietnam Pro";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+margin-left: -70px;
+}
+
+
+
+.modal-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.goiteens{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--logo-color);
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 2px;
+background:  #F0F1F1;
+}
+
+
+
+.goiteens-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+
+
+
+.copy-code{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: #FFF0E7;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+background: #8D4A00;
+}
+
+
+
+
+.copy-img{
+    position: relative;
+}
+
+
+.copy-img{
+    position: absolute;
+    bottom: 47px;
+    left: 75px;
+}
+
+
+
+
+.go-icon{
+position: relative;
+}
+
+
+.go-icon{
+position: absolute;
+left: 270px;
+}
+
+
+
+.copy-div{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
