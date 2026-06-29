@@ -17,6 +17,7 @@
     margin: 0 auto;
     padding: 0 15px;
 outline: 1px solid red;
+
     }
 
 
@@ -486,6 +487,7 @@ font-weight: 700;
 line-height: 60px;
 letter-spacing: -3px;
 margin-top: 256px;
+
 }
 
 
@@ -831,7 +833,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: -3px;
-margin-top: 256px;
+margin-top: 40px;
 padding-left: 80px;
 padding-top: 110px;
 padding-right: 600px;
@@ -849,7 +851,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 29.25px;
 padding-left: 80px;
-padding-right: 600px;
+
 padding-bottom: 24px;
 }
 
@@ -897,19 +899,114 @@ line-height: 20px;
 }
 
 
-.name{
-display: flex;
-flex-direction: column;
-justify-content: center;
-color: #5A5C5C;
-font-family: "Be Vietnam Pro";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px;
-transform: translateY(-470px);
-margin-left: 100px;
-align-items: center;
+
+
+
+
+
+
+
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+position: relative;
+    max-width: 500px;
+    margin: 0 auto; 
+    align-items: flex-start;
+}
+
+.form{
+    position: absolute;
+   right: 300px;
+   top: 4000px;
+}
+
+
+
+
+input {
+    width: 100%;
+    max-width: 400px;
+
+    padding: 16px 24px;
+    border-radius: 50px;
+    border: none;
+
+    background: #f3f3f3;
+
+    font-family: "Be Vietnam Pro";
+}
+
+
+button {
+    align-self: flex-start;
+    padding: 20px 100px;
+
+    border-radius: 50px;
+    border: none;
+
+    background: rgba(0, 0, 0, 0.829);
+    color: white;
+}
+
+
+
+
+.text-style{
+    font-family: "Be Vietnam Pro";
+
+}
+
+
+
+.after-form{
+    color: rgba(0, 0, 0, 0.541);
+}
+
+
+
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.footer-links a {
+  color: var(--main-text);
+  font-family: "Be Vietnam Pro";
+  font-size: 14px;
+  margin-top: 200px;
+padding-bottom: 100px;
+  text-decoration: none;
+}
+
+.footer-logo {
+  font-family: "Space Grotesk";
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--logo-color);
+  text-decoration: none;
+margin-top: 200px;
+padding-bottom: 100px;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: var(--main-text);
+margin-top: 200px;
+padding-bottom: 100px;
 }
 
 
@@ -917,19 +1014,7 @@ align-items: center;
 
 
 
-.textares-one{
 
-color: #5A5C5C;
-font-family: "Be Vietnam Pro";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px;
-transform: translateY(-440px);
-margin-right: 50px;
-margin-left: 100px;
-
-}
 
 
 
