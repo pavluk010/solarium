@@ -10,11 +10,11 @@
 
 
 .container {
-    max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
-    width: 100%;
+    width: 1212px;
     box-sizing: border-box;
+    
 }
 
 
@@ -1328,3 +1328,96 @@ left: 270px;
 
 
 
+@keyframes  slideLeft{
+
+0%{
+    transform: translateX(-1200px);
+}
+
+ 100%{
+            transform: translateX(0);
+        }
+
+   }
+
+
+
+   .animation{
+     animation-name: slideLeft;      
+    animation-duration: 1.5s; 
+   }
+
+
+
+   .header-button {
+    transition: transform 0.2s ease;
+}
+
+.header-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+ .main-button {
+    transition: transform 0.3s ease;
+}
+
+.main-button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+ .hero-button {
+    transition: transform 0.2s ease;
+}
+
+.hero-button:hover {
+    transform: scale(1.1);
+}
+
+
+ .near-button {
+    transition: transform 0.2s ease;
+}
+
+.near-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+ .trends {
+    transition: transform 0.2s ease;
+}
+
+.trends:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+ .registration {
+    transition: transform 0.2s ease;
+}
+
+.registration:hover {
+    transform: scale(1.050);
+}
+
+
+
+
+
+
+ .grid-img {
+    transition: transform 0.2s ease;
+}
+
+.grid-img:hover {
+    transform: scale(1.050);
+}
